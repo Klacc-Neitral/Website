@@ -1,0 +1,1501 @@
+body
+{
+    background: rgb(255,255,255);
+    background: linear-gradient(14deg, rgba(255,255,255,1) 60%, rgba(159,210,142,1) 150%);
+}
+
+.PhoneNav
+    {
+        display: none;
+    }
+    
+    h2
+    {
+        font-size: 32px;
+        font-weight: bold;
+        display: inline;
+    }
+    .PlanshetNav
+    {
+        display: none;
+    }
+    .navD
+    {
+        margin-left: 21.7%;
+        display: inline;
+    }
+    header
+    {
+        position: relative;
+        width: 100%;
+        margin-top: 30px;
+        border-bottom: #000 1px solid;
+        padding-bottom: 10px;
+    }
+    .logo
+    {
+        margin-left: 10%;
+        display: inline;
+    }
+    .name
+    {
+        font-weight: bold;
+        font-size: 32px;
+        display: inline;
+    }
+    .opbook
+    {
+        height: 50px;
+        margin-bottom: -15px;
+    }
+    nav
+    {
+
+        display: inline;
+
+    }
+    .nav_plan
+    {
+        display: none;
+        position: absolute;
+        text-align: center;
+    }
+    a
+    {
+        margin: 0 1.31%;
+        margin-right: 0;
+        color: #000;
+        text-decoration: none;
+        font-size: 16px;
+        
+    }
+    a:last-child
+    {
+        margin-right: 0;
+    }
+    .buttons
+    {
+        display: inline;
+    }
+    .buttons .login_but
+    {
+        display: inline;
+        border: none;
+        margin-left: 0.7%; ;
+        width: 107px;
+        height: 34px;
+        color: rgb(255, 255, 255);
+        background-color: #000;
+
+    }
+    .buttons .reg_but
+    {
+        margin-left: 0.7%;
+        display: inline;
+        border: none;
+        width: 135px;
+        height: 34px;
+        color: black;
+        background-color: gray;
+    }
+    body{
+        margin: 0 auto;
+    }
+
+    .text_arg
+    {
+        margin-top: 2%;
+        margin-left: 7%;
+        font-size: 26px;
+    }
+    .first_arg
+    {
+        width: 85% ;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 7%;
+        margin-top: 7%;
+        height: 26%;
+    }
+    .first_arg_text
+    {
+        font-size: 20px;
+        margin-top: 6.3%;
+        margin-left: 4%;
+        width: 41%;
+        height: 8%;
+    }
+    .first_arg_text_title
+    {
+        font-size: 32px;
+        font-weight: bold;
+        text-align: center;
+        color: rgba(83, 195, 75, 1);
+        display: block;
+    }
+
+    .first_arg_photo
+    {
+        display: inline;
+        width: 29%;
+        margin-right: 3%;
+        height: 28%;
+
+    }
+    .second_arg
+    {
+        width: 85% ;
+        margin-left: 7%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 7%;
+        height: 26%;
+    }
+    .second_arg_text
+    {
+        font-size: 20px;
+        margin-top: 7%;
+        width: 35%;
+        height: 28%;
+    }
+    .second_arg_text_title
+    {
+        font-size: 32px;
+        font-weight: bold;
+        text-align: center;
+        color: rgba(83, 195, 75, 1);
+        display: block;
+    }
+    .second_arg_photo
+    {
+        display: inline;
+        width: 33%;
+        margin-left:8%;
+        height: 28%;
+
+    }
+    .firth_arg
+    {
+        
+        width: 85% ;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 7%;
+        margin-top: 7%;
+        height: 26%;
+    }
+    .firth_arg_text
+    {
+        font-size: 20px;
+        margin-top: 8.3%;
+        margin-left: 4%;
+        width: 41%;
+        height: 8%;
+    }
+    .firth_arg_text_title
+    {
+        font-size: 32px;
+        font-weight: bold;
+        text-align: center;
+        color: rgba(83, 195, 75, 1);
+        display: block;
+    }
+    .firth_arg_photo
+    {
+        display: inline;
+        width: 29%;
+        margin-right: 3%;
+        height: 28%;
+    }
+    
+    .beauti_words {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+    
+    .beauti_words_photo {
+        margin-top: 15px;
+        width: 100%;
+        height: auto;
+        z-index: 1;
+    }
+    
+    .beauti_words_text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80%;
+        max-width: 600px;
+        z-index: 2;
+        color: #000000;
+    }
+    
+    .beauti_words_title {
+        font-size: 32px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    
+    .Start_educ_text {
+        font-size: 16px;
+        color: #ccc;
+    }
+    .carousel-container {
+        z-index: 2;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 87%;
+        max-width: 1480px;
+        height: 300px;
+        padding: 20px;
+        background-color: rgb(89, 182, 95);
+        color: #333;
+        border-radius: 10px;
+        position: relative;
+        overflow: hidden;
+        text-align: center;
+    }
+    
+    .carousel-slide {
+        display: none;
+        width: 80%;
+        max-width: 700px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 1.5rem;
+    }
+    
+    .carousel-slide.active {
+        display: block;
+    }
+    
+    .carousel-slide h2 {
+        font-size:2rem;
+        color: white;
+        margin-bottom: 10px;
+        margin-top: 6%;
+    }
+    
+    .carousel-slide p {
+        font-size: 25px;
+        color: white;
+        line-height: 1.2;
+        margin-top: 10px;
+    }
+    
+    .carousel-controls {
+        position: absolute;
+        top: 50%;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        transform: translateY(-50%);
+    }
+    
+    .carousel-controls button {
+        background-color: transparent;
+        border: none;
+        color: white;
+        font-size: 2rem;
+        cursor: pointer;
+        outline: none;
+    }
+    .consultation {
+        position: relative;
+        margin: 60px auto;
+        width: 90%;
+        max-width: 1480px;
+        height: auto;
+        padding: 40px;
+        background-color: rgb(89, 182, 95);
+        border-radius: 40px;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    
+    .consultation_giv_cons {
+        font-size: 2rem;
+        margin: 20px 0;
+        text-align: center;
+    }
+    
+    .consultation_our_men {
+        width: 80%;
+        max-width: 330px;
+        font-size: 1rem;
+        margin: 20px auto;
+        text-align: center;
+    }
+    
+    .give_inform {
+        width: 100%;
+        max-width: 1200px;
+        margin: 20px auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+    }
+    
+    input {
+        width: 100%;
+        max-width: 250px;
+        background-color: #282928;
+        color: black;
+        padding: 15px;
+        border: 1px solid;
+        border-radius: 30px;
+        box-sizing: border-box;
+    }
+    
+    .inform_name,
+    .inform_phone,
+    .inform_mail {
+        border: none;
+        text-align: left;
+        width: 100%;
+        max-width: 250px;
+        padding: 15px;
+        border-radius: 30px;
+        background-color: rgb(255, 255, 255);
+    }
+    
+    .but_consult {
+        font-size: 1rem;
+        border: none;
+        width: 100%;
+        max-width: 250px;
+        padding: 15px;
+        border-radius: 30px;
+        background-color: rgb(0, 0, 0);
+        color: #ffffff;
+        text-align: center;
+        cursor: pointer;
+    }
+    .logo_foot {
+        margin-top: 4%;
+        margin-left: 4%;
+        display: inline;
+        position: absolute;
+    }
+    
+    .name_foot {
+        color: white;
+        font-weight: bolder;
+        font-size: 32px;
+        display: inline;
+        -webkit-text-stroke: 1px rgba(128, 123, 123, 1);
+    }
+    
+    .opbook_foot {
+        height: 50px;
+        margin-bottom: -15px;
+    }
+    
+    footer {
+        margin-top: 10%;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        background-color: rgba(128, 123, 123, 1);
+        height: 242px;
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    
+    .name_creator {
+        margin-top: 4%;
+        color: white;
+    }
+    
+    .a_footer {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 16px;
+    }
+    
+    .left_side {
+        width: 40%;
+        margin-top: 1%;
+    }
+    
+    .nav_foot {
+        width: 100%;
+    }
+    
+    .nav_footer {
+        margin-left: 12px;
+        display: inline;
+    }
+    
+    .nav_social {
+        display: flex;
+        margin-top: 4%;
+        justify-content: space-around;
+    }
+    
+    .social_div {
+        width: 14%;
+    }
+
+@media (width<= 1519px)
+{
+    .PhoneNav
+    {
+        display: none;
+    }
+    h2
+    {
+        font-size: 32px;
+        font-weight: bold;
+        display: inline;
+    }
+    .PlanshetNav
+    {
+        display: none;
+    }
+    .navD
+    {
+        margin-left: 21.7%;
+        display: inline;
+    }
+    header
+    {
+        position: relative;
+        width: 100%;
+        margin-top: 30px;
+        border-bottom: #000 1px solid;
+        padding-bottom: 10px;
+    }
+    .logo
+    {
+        margin-left: 10%;
+        display: inline;
+    }
+    .name
+    {
+        font-weight: bold;
+        font-size: 32px;
+        display: inline;
+    }
+    .opbook
+    {
+        height: 50px;
+        margin-bottom: -15px;
+    }
+    nav
+    {
+
+        display: inline;
+
+    }
+    .nav_plan
+    {
+        display: none;
+        position: absolute;
+        text-align: center;
+    }
+    a
+    {
+        margin: 0 1.31%;
+        margin-right: 0;
+        color: #000;
+        text-decoration: none;
+        font-size: 16px;
+        
+    }
+    a:last-child
+    {
+        margin-right: 0;
+    }
+    .buttons
+    {
+        display: inline;
+    }
+    .buttons .login_but
+    {
+        display: inline;
+        border: none;
+        margin-left: 0.7%; ;
+        width: 107px;
+        height: 34px;
+        color: rgb(255, 255, 255);
+        background-color: #000;
+
+    }
+    .buttons .reg_but
+    {
+        margin-left: 0.7%;
+        display: inline;
+        border: none;
+        width: 135px;
+        height: 34px;
+        color: black;
+        background-color: gray;
+    }
+    body{
+        margin: 0 auto;
+    }
+
+
+    .first_arg
+    {
+        width: 85% ;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 7%;
+        margin-top: 7%;
+        height: 26%;
+    }
+    .first_arg_text
+    {
+        font-size: 20px;
+        margin-top: 6.3%;
+        margin-left: 4%;
+        width: 41%;
+        height: 8%;
+    }
+    .first_arg_text_title
+    {
+        font-size: 32px;
+        font-weight: bold;
+        text-align: center;
+        color: rgba(83, 195, 75, 1);
+        display: block;
+    }
+
+    .first_arg_photo
+    {
+        display: inline;
+        width: 29%;
+        margin-right: 3%;
+        height: 28%;
+
+    }
+    .second_arg
+    {
+        width: 85% ;
+        margin-left: 7%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 7%;
+        height: 26%;
+    }
+    .second_arg_text
+    {
+        font-size: 20px;
+        margin-top: 7%;
+        width: 35%;
+        height: 28%;
+    }
+    .second_arg_text_title
+    {
+        font-size: 32px;
+        font-weight: bold;
+        text-align: center;
+        color: rgba(83, 195, 75, 1);
+        display: block;
+    }
+    .second_arg_photo
+    {
+        display: inline;
+        width: 33%;
+        margin-left:8%;
+        height: 28%;
+
+    }
+    .firth_arg
+    {
+        width: 85% ;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 7%;
+        margin-top: 7%;
+        height: 26%;
+    }
+    .firth_arg_text
+    {
+        font-size: 20px;
+        margin-top: 8.3%;
+        margin-left: 4%;
+        width: 41%;
+        height: 8%;
+    }
+    .firth_arg_text_title
+    {
+        font-size: 32px;
+        font-weight: bold;
+        text-align: center;
+        color: rgba(83, 195, 75, 1);
+        display: block;
+    }
+    .firth_arg_photo
+    {
+        display: inline;
+        width: 29%;
+        margin-right: 3%;
+        height: 28%;
+    }
+    
+    .beauti_words {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+    
+    .beauti_words_photo {
+        margin-top: 15px;
+        width: 100%;
+        height: auto;
+        z-index: 1;
+    }
+    
+    .beauti_words_text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80%;
+        max-width: 600px;
+        z-index: 2;
+        color: #000000;
+    }
+    
+    .beauti_words_title {
+        font-size: 32px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    
+    .Start_educ_text {
+        font-size: 16px;
+        color: #ccc;
+    }
+    .carousel-container {
+        z-index: 2;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 87%;
+        max-width: 1480px;
+        height: 300px;
+        padding: 20px;
+        background-color: rgb(89, 182, 95);
+        color: #333;
+        border-radius: 10px;
+        position: relative;
+        overflow: hidden;
+        text-align: center;
+    }
+    
+    .carousel-slide {
+        display: none;
+        width: 80%;
+        max-width: 700px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 1.5rem;
+    }
+    
+    .carousel-slide.active {
+        display: block;
+        margin-top: 6%;
+    }
+    
+    .carousel-slide h2 {
+        font-size: 2rem;
+        color: white;
+        margin-bottom: 10px;
+        margin-top: 6%;
+    }
+    
+    .carousel-slide p {
+        font-size: 1rem;
+        color: white;
+        line-height: 1.5;
+        margin-top: 10px;
+    }
+    
+    .carousel-controls {
+        position: absolute;
+        top: 50%;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        transform: translateY(-50%);
+    }
+    
+    .carousel-controls button {
+        background-color: transparent;
+        border: none;
+        color: white;
+        font-size: 2rem;
+        cursor: pointer;
+        outline: none;
+    }
+    .consultation {
+        position: relative;
+        margin: 20px auto;
+        width: 90%;
+        max-width: 1319px;
+        height: auto;
+        padding: 40px;
+        background-color: rgba(83, 195, 75, 1);
+        border-radius: 10%;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    
+    .consultation_giv_cons {
+        font-size: 2rem;
+        margin: 20px 0;
+        text-align: center;
+    }
+    
+    .consultation_our_men {
+        width: 80%;
+        max-width: 330px;
+        font-size: 1rem;
+        margin: 20px auto;
+        text-align: center;
+    }
+    
+    .give_inform {
+        width: 100%;
+        max-width: 1200px;
+        margin: 20px auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+    }
+    
+    input {
+        width: 100%;
+        max-width: 250px;
+        background-color: #282928;
+        color: black;
+        padding: 15px;
+        border: 1px solid;
+        border-radius: 30px;
+        box-sizing: border-box;
+    }
+    
+    .inform_name,
+    .inform_phone,
+    .inform_mail {
+        border: none;
+        text-align: left;
+        width: 100%;
+        max-width: 250px;
+        padding: 15px;
+        border-radius: 30px;
+        background-color: rgb(255, 255, 255);
+    }
+    
+    .but_consult {
+        font-size: 1rem;
+        border: none;
+        width: 100%;
+        max-width: 250px;
+        padding: 15px;
+        border-radius: 30px;
+        background-color: rgb(0, 0, 0);
+        color: #ffffff;
+        text-align: center;
+        cursor: pointer;
+    }
+    .logo_foot {
+        margin-top: 4%;
+        margin-left: 4%;
+        display: inline;
+        position: absolute;
+    }
+    
+    .name_foot {
+        color: white;
+        font-weight: bolder;
+        font-size: 32px;
+        display: inline;
+        -webkit-text-stroke: 1px rgba(128, 123, 123, 1);
+    }
+    
+    .opbook_foot {
+        height: 50px;
+        margin-bottom: -15px;
+    }
+    
+    footer {
+        margin-top: 5%;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        background-color: rgba(128, 123, 123, 1);
+        height: 242px;
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    
+    .name_creator {
+        margin-top: 4%;
+        color: white;
+    }
+    
+    .a_footer {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 16px;
+    }
+    
+    .left_side {
+        width: 40%;
+        margin-top: 1%;
+    }
+    
+    .nav_foot {
+        width: 100%;
+    }
+    
+    .nav_footer {
+        margin-left: 12px;
+        display: inline;
+    }
+    
+    .nav_social {
+        display: flex;
+        margin-top: 4%;
+        justify-content: space-around;
+    }
+    
+    .social_div {
+        width: 14%;
+    }
+}
+@media (width<= 1199px)
+{
+
+    .headerMenu
+    {
+        margin-top: -10px;
+        margin-right: 30px;
+    }
+    h2
+    {
+        font-size: 32px;
+        font-weight: bold;
+        display: inline;
+    }
+    .PlanshetNav
+    {
+        display: inline;
+    }
+    .navD
+    {
+        display: none;
+    }
+    header
+    {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .logo
+    {
+        margin-left: 4%;
+        display: inline;
+    }
+    .name
+    {
+        font-weight: bold;
+        font-size: 32px;
+        display: inline;
+    }
+    .opbook
+    {
+        height: 50px;
+        margin-bottom: -15px;
+    }
+    .nav_plan
+    {
+    margin-top: 1.4%;
+    width: 210px;
+    margin-left: 42%;
+    display: inline;
+    position: absolute;
+    }
+    .Planshet
+    {
+        margin-top: 6%;
+        width: 30px;
+    }
+    a
+    {
+        margin: 0 3.31%;
+        margin-right: 0;
+        color: #000;
+        text-decoration: none;
+        font-size: 16px;
+        
+    }
+    a:last-child
+    {
+        margin-right: 0;
+    }
+    .text_arg
+    {
+        margin-top: 2%;
+        margin-left: 7%;
+        font-size: 23px;
+    }
+    .first_arg
+    {
+        width: 85% ;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 7%;
+        margin-top: 7%;
+        height: 26%;
+    }
+    .first_arg_text
+    {
+        font-size: 14px;
+        margin-top: 6.3%;
+        margin-left: 4%;
+        width: 41%;
+        height: 8%;
+    }
+    .first_arg_text_title
+    {
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+        color: rgba(83, 195, 75, 1);
+        display: block;
+    }
+    
+    .first_arg_photo
+    {
+        display: inline;
+        width: 29%;
+        margin-right: 3%;
+        height: 28%;
+    
+    }
+    .second_arg
+    {
+        width: 85% ;
+        margin-left: 7%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 7%;
+        height: 26%;
+    }
+    .second_arg_text
+    {
+        font-size: 14px;
+        margin-top: 7%;
+        width: 35%;
+        height: 28%;
+    }
+    .second_arg_text_title
+    {
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+        color: rgba(83, 195, 75, 1);
+        display: block;
+    }
+    .second_arg_photo
+    {
+        display: inline;
+        width: 33%;
+        margin-left:8%;
+        height: 28%;
+
+    }
+    .firth_arg
+    {
+        width: 85% ;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 7%;
+        margin-top: 7%;
+        height: 26%;
+    }
+    .firth_arg_text
+    {
+        font-size: 14px;
+        margin-top: 6.3%;
+        margin-left: 4%;
+        width: 41%;
+        height: 8%;
+    }
+    .firth_arg_text_title
+    {
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+        color: rgba(83, 195, 75, 1);
+        display: block;
+    }
+    .firth_arg_photo
+    {
+        display: inline;
+        width: 29%;
+        margin-right: 3%;
+        height: 28%;
+    }
+    .carousel-slide p {
+        font-size: 25px;
+        color: white;
+        line-height: 1.2;
+        margin-top: 10px;
+    }
+
+    
+}
+@media (width<= 991px)
+{
+    .text_arg
+    {
+        margin-top: 2%;
+        margin-left: 7%;
+        font-size: 18px;
+    }
+    .beauti_words_title {
+        font-size: 24px;
+    }
+    .Start_educ_text {
+        font-size: 12px;
+    }
+    .carousel-container {
+        margin-top: 30px;
+        padding: 15px;
+        width: 95%;
+    }
+    .carousel-slide {
+        font-size: 1.25rem;
+    }
+    .carousel-slide h2 {
+        font-size: 1.75rem;
+    }
+    .carousel-slide p {
+        font-size: 19px;
+    }
+    .carousel-controls button {
+        font-size: 1.75rem;
+    }
+    .logo_foot {
+        position: relative;
+        margin: 10px auto;
+    }
+
+    .name_foot {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 20px 10px;
+    }
+
+    .left_side {
+        width: 100%;
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    .nav_social {
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    .social_div {
+        width: 30%;
+    }
+}
+@media (width<= 768px)
+{
+    .headerMenu
+    {
+        margin-top: -10px;
+    }
+    h2
+    {
+        font-size: 32px;
+        font-weight: bold;
+        display: inline;
+    }
+    .PhoneNav
+    {
+        display: inline;
+    }
+    .PlanshetNav
+    {
+        display: none;
+    }
+    .navD
+    {
+        display: none;
+    }
+    header
+    {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .logo
+    {
+        margin-left: 4%;
+        display: inline;
+    }
+    .name
+    {
+        font-weight: bold;
+        font-size: 32px;
+        display: inline;
+    }
+    .opbook
+    {
+        height: 50px;
+        margin-bottom: -15px;
+    }
+    .nav_plan
+    {
+    margin-top: 1.4%;
+    width: 210px;
+    margin-left: 42%;
+    display: none;
+    position: absolute;
+    }
+    .Planshet
+    {
+        margin-top: 6%;
+        width: 30px;
+    }
+    a
+    {
+        margin: 0 3.31%;
+        margin-right: 0;
+        color: #000;
+        text-decoration: none;
+        font-size: 16px;
+        
+    }
+    a:last-child
+    {
+        margin-right: 0;
+    }
+    .first_arg
+    {
+        text-align: center;
+        width: 100% ;
+        display: block;
+        margin-left: 2%;
+        margin-top: 11%;
+        height: 26%;
+    }
+    .first_arg_text
+    {
+        font-size: 18px;
+        margin-top: 6.3%;
+        margin-left: 4%;
+        width: 90%;
+        height: 8%;
+    }
+    .first_arg_text_title
+    {
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+        color: rgba(83, 195, 75, 1);
+        display: block;
+    }
+    
+    .first_arg_photo
+    {
+        display: block;
+        width: 39%;
+        height: 38%;
+        margin-top: 9%;
+        margin-left: 28%;
+    
+    }
+    .second_arg
+    {
+        text-align: center;
+        width: 100% ;
+        display: flex;
+        flex-direction: column;
+        margin-left: 2%;
+        margin-top: 11%;
+        height: 26%;
+    }
+    .second_arg_text
+    {
+        font-size: 18px;
+        margin-top: 6.3%;
+        margin-left: 4%;
+        width: 90%;
+        height: 8%;
+    }
+    .second_arg_text_title
+    {
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+        color: rgba(83, 195, 75, 1);
+        display: block;
+    }
+    .second_arg_photo
+    {
+        width: 39%;
+        height: 38%;
+        margin-top: 9%;
+        margin-left: 28%;
+        order: 2;
+    }
+    .firth_arg
+    {
+        text-align: center;
+        width: 100% ;
+        display: block;
+        margin-left: 2%;
+        margin-top: 11%;
+        height: 26%;
+    }
+    .firth_arg_text
+    {
+        font-size: 18px;
+        margin-top: 6.3%;
+        margin-left: 4%;
+        width: 90%;
+        height: 8%;
+    }
+    .firth_arg_text_title
+    {
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+        color: rgba(83, 195, 75, 1);
+        display: block;
+    }
+    .firth_arg_photo
+    {
+        display: block;
+        width: 39%;
+        height: 38%;
+        margin-top: 9%;
+        margin-left: 28%;
+    }
+    .beauti_words_title {
+        font-size: 15px;
+    }
+    .Start_educ_text {
+        font-size: 10px;
+    }
+    .beauti_words_text {
+        width: 90%;
+    }
+    .carousel-slide p {
+        font-size: 14px;
+    }
+}
+@media (width <= 576px) {
+        .text_arg{
+            margin-top: 2%;
+            margin-left: 7%;
+            font-size: 12px;
+        }
+        .beauti_words_title {
+            font-size: 15px;
+        }
+        .Start_educ_text {
+            font-size: 10px;
+        }
+        .beauti_words_text {
+            width: 90%;
+        }
+        
+            .carousel-container {
+                margin-top: 20px;
+                padding: 10px;
+                width: 100%;
+            }
+            .carousel-slide {
+                font-size: 1rem;
+            }
+            .carousel-slide h2 {
+                font-size: 1.5rem;
+            }
+            .carousel-slide p {
+                font-size: 0.8rem;
+            }
+            .carousel-controls button {
+                font-size: 1.5rem;
+            }
+            .name_foot {
+                font-size: 24px;
+                text-align: center;
+                -webkit-text-stroke: 0.5px rgba(128, 123, 123, 1);
+            }
+        
+            .logo_foot {
+                position: relative;
+                margin: 5px auto;
+            }
+        
+            footer {
+                padding: 10px;
+            }
+        
+            .name_creator {
+                margin-top: 10px;
+                font-size: 14px;
+                text-align: center;
+            }
+        
+            .a_footer {
+                font-size: 14px;
+            }
+        
+            .left_side {
+                width: 100%;
+                text-align: center;
+                margin-top: 10px;
+            }
+        
+            .nav_social {
+                
+                align-items: center;
+                margin-top: 10px;
+            }
+        
+            .social_div {
+                width: 40%;
+                margin-top: 5px;
+            }
+    
+
+}
+@media (width <= 460px) {
+    .text_arg{
+        margin-top: 2%;
+        margin-left: 7%;
+        font-size: 12px;
+    }
+    .beauti_words_title {
+        font-size: 15px;
+    }
+    .Start_educ_text {
+        font-size: 10px;
+    }
+    .beauti_words_text {
+        width: 90%;
+    }
+    
+        .carousel-container {
+            margin-top: 20px;
+            padding: 10px;
+            width: 100%;
+        }
+        .carousel-slide {
+            font-size: 1rem;
+        }
+        .carousel-slide h2 {
+            font-size: 1.5rem;
+        }
+        .carousel-slide p {
+            font-size: 0.8rem;
+        }
+        .carousel-controls button {
+            font-size: 1.5rem;
+        }
+        .name_foot {
+            font-size: 24px;
+            text-align: center;
+            -webkit-text-stroke: 0.5px rgba(128, 123, 123, 1);
+        }
+    
+        .logo_foot {
+            position: relative;
+            margin: 5px auto;
+        }
+    
+        footer {
+            padding: 10px;
+        }
+    
+        .name_creator {
+            margin-top: 10px;
+            font-size: 14px;
+            text-align: center;
+        }
+    
+        .a_footer {
+            font-size: 14px;
+        }
+    
+        .left_side {
+            width: 100%;
+            text-align: center;
+            margin-top: 10px;
+        }
+    
+        .nav_social {
+            
+            align-items: center;
+            margin-top: 10px;
+        }
+    
+        .social_div {
+            width: 40%;
+            margin-top: 5px;
+        }
+
+
+}
+@media (width<= 374px)
+{
+    .beauti_words_title {
+        font-size: 16px;
+    }
+    .Start_educ_text {
+        font-size: 8px;
+    }
+    .social_div {
+        width: 50%;
+        margin-top: 5px;
+    }
+}

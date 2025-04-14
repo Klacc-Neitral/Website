@@ -1,0 +1,942 @@
+header {
+    position: relative;
+    width: 100%;
+    margin-top: 30px;
+    border-bottom: #000 1px solid;
+    padding-bottom: 10px;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    display: inline;
+}
+
+.logo {
+    width: 17%;
+    display: block; 
+    margin-bottom: 10px; 
+    margin-left: 4%;
+}
+
+.name {
+    display: inline;
+    font-weight: bold;
+    font-size: 32px;
+
+}
+
+.opbook {
+    height: 50px;
+    margin-bottom: -15px;
+}
+
+.open_class {
+    margin-top: 0; 
+    display: block; 
+}
+
+
+main {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 900px;
+}
+
+.mathematic_class, .programic_class, .language_class {
+    margin-top: 90px;
+    width: 29%;
+    height: 700px;
+    padding: 10px;
+    background-color: rgb(91, 157, 152);
+    text-shadow: 15px;
+    box-shadow: 10px 11px 14px 3px rgba(34, 60, 80, 0.2);
+    transition: transform 0.3s;
+}
+
+.mathematic_class:hover, .programic_class:hover, .language_class:hover {
+    transform: scale(1.006);
+}
+
+.mathematic_photo, .programic_photo, .language_photo {
+    margin: 10px 15px;
+    width: 93%;
+    height: 300px;
+}
+
+.mathematic_title, .programic_title, .language_title {
+    margin-top: -1px;
+    text-align: center;
+}
+
+.mathematic_button, .programic_button, .language_button {
+    width: 10%;
+    height: 40px;
+    margin: 30px 20px;
+    border: none;
+    background-color: rgb(88, 208, 88);
+    position: absolute;
+}
+
+
+.name_foot {
+    color: white;
+    font-weight: bolder;
+    font-size: 32px;
+    display: inline;
+    -webkit-text-stroke: 1px rgba(128, 123, 123, 1);
+}
+
+.opbook_foot {
+    height: 50px;
+    margin-bottom: -15px;
+}
+
+footer {
+    margin-top: 30%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(128, 123, 123, 1);
+    height: 242px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.name_creator {
+    margin-top: 4%;
+    color: white;
+}
+
+.a_footer {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.left_side {
+    width: 40%;
+    margin-top: 1%;
+}
+
+.nav_foot {
+    width: 100%;
+}
+
+.nav_footer {
+    margin-left: 12px;
+    display: inline;
+}
+
+.nav_social {
+    display: flex;
+    margin-top: 4%;
+    justify-content: space-around;
+}
+
+.social_div {
+    width: 14%;
+}
+.name_foot {
+    color: white;
+    font-weight: bolder;
+    font-size: 32px;
+    display: inline;
+    -webkit-text-stroke: 1px rgba(128, 123, 123, 1);
+}
+
+.opbook_foot {
+    height: 50px;
+    margin-bottom: -15px;
+}
+
+footer {
+    margin-top: 100px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(128, 123, 123, 1);
+    height: 242px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.name_creator {
+    margin-top: 4%;
+    color: white;
+}
+
+.a_footer {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.left_side {
+    width: 40%;
+    margin-top: 1%;
+}
+
+.nav_foot {
+    width: 100%;
+}
+
+.nav_footer {
+    margin-left: 12px;
+    display: inline;
+}
+
+.nav_social {
+    display: flex;
+    margin-top: 4%;
+    justify-content: space-around;
+}
+
+.social_div {
+    width: 14%;
+}
+@media (width<= 1519px)
+{
+    header {
+        position: relative;
+        width: 100%;
+        margin-top: 30px;
+        border-bottom: #000 1px solid;
+        padding-bottom: 10px;
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+    }
+    
+    a {
+        color: #000;
+        text-decoration: none;
+        display: inline;
+    }
+    
+    .logo {
+        width: 17%;
+        display: block; 
+        margin-bottom: 10px; 
+        margin-left: 4%;
+    }
+    
+    .name {
+        display: inline;
+        font-weight: bold;
+        font-size: 32px;
+
+    }
+    
+    .opbook {
+        height: 50px;
+        margin-bottom: -15px;
+    }
+    
+    .open_class {
+        margin-top: 0; 
+        display: block; 
+    }
+    
+    
+    main {
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        height: 900px;
+    }
+    
+    .mathematic_class, .programic_class, .language_class {
+        margin-top: 90px;
+        width: 29%;
+        height: 700px;
+        padding: 10px;
+        background-color: rgb(91, 157, 152);
+        text-shadow: 15px;
+        box-shadow: 10px 11px 14px 3px rgba(34, 60, 80, 0.2);
+        transition: transform 0.3s;
+    }
+    
+    .mathematic_class:hover, .programic_class:hover, .language_class:hover {
+        transform: scale(1.006);
+    }
+    
+    .mathematic_photo, .programic_photo, .language_photo {
+        margin: 10px 15px;
+        width: 93%;
+        height: 300px;
+    }
+    
+    .mathematic_title, .programic_title, .language_title {
+        margin-top: -1px;
+        text-align: center;
+    }
+    
+    .mathematic_button, .programic_button, .language_button {
+        width: 10%;
+        height: 40px;
+        margin: 30px 20px;
+        border: none;
+        background-color: rgb(88, 208, 88);
+        position: absolute;
+    }
+    
+
+    .name_foot {
+        color: white;
+        font-weight: bolder;
+        font-size: 32px;
+        display: inline;
+        -webkit-text-stroke: 1px rgba(128, 123, 123, 1);
+    }
+    
+    .opbook_foot {
+        height: 50px;
+        margin-bottom: -15px;
+    }
+    
+    footer {
+        margin-top: 30%;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        background-color: rgba(128, 123, 123, 1);
+        height: 242px;
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    
+    .name_creator {
+        margin-top: 4%;
+        color: white;
+    }
+    
+    .a_footer {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 16px;
+    }
+    
+    .left_side {
+        width: 40%;
+        margin-top: 1%;
+    }
+    
+    .nav_foot {
+        width: 100%;
+    }
+    
+    .nav_footer {
+        margin-left: 12px;
+        display: inline;
+    }
+    
+    .nav_social {
+        display: flex;
+        margin-top: 4%;
+        justify-content: space-around;
+    }
+    
+    .social_div {
+        width: 14%;
+    }
+    .name_foot {
+        color: white;
+        font-weight: bolder;
+        font-size: 32px;
+        display: inline;
+        -webkit-text-stroke: 1px rgba(128, 123, 123, 1);
+    }
+    
+    .opbook_foot {
+        height: 50px;
+        margin-bottom: -15px;
+    }
+    
+    footer {
+        margin-top: 100px;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        background-color: rgba(128, 123, 123, 1);
+        height: 242px;
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    
+    .name_creator {
+        margin-top: 4%;
+        color: white;
+    }
+    
+    .a_footer {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 16px;
+    }
+    
+    .left_side {
+        width: 40%;
+        margin-top: 1%;
+    }
+    
+    .nav_foot {
+        width: 100%;
+    }
+    
+    .nav_footer {
+        margin-left: 12px;
+        display: inline;
+    }
+    
+    .nav_social {
+        display: flex;
+        margin-top: 4%;
+        justify-content: space-around;
+    }
+    
+    .social_div {
+        width: 14%;
+    }
+}
+@media (width<= 1199px)
+{
+    header {
+        position: relative;
+        width: 100%;
+        margin-top: 30px;
+        border-bottom: #000 1px solid;
+        padding-bottom: 10px;
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+    }
+    
+    a {
+        color: #000;
+        text-decoration: none;
+        display: inline;
+    }
+    
+    .logo {
+        width: 100%;
+        display: block; 
+        margin-bottom: 10px; 
+        margin-left: 7%;
+        text-align: centerx;
+    }
+    
+    .name {
+        display: inline;
+        font-weight: bold;
+        font-size: 32px;
+
+    }
+    
+    .opbook {
+        height: 50px;
+        margin-bottom: -15px;
+    }
+    
+    .open_class {
+        margin-top: 0; 
+        display: block; 
+    }
+    
+    .mathematic_class, .programic_class, .language_class {
+        margin-top: 90px;
+        width: 25%;
+        height: 700px;
+        padding: 10px;
+        background-color: rgb(91, 157, 152);
+        text-shadow: 15px;
+        box-shadow: 10px 11px 14px 3px rgba(34, 60, 80, 0.2);
+        transition: transform 0.3s;
+    }
+    
+    .mathematic_class:hover, .programic_class:hover, .language_class:hover {
+        transform: scale(1.006);
+    }
+    
+    .mathematic_photo, .programic_photo, .language_photo {
+        margin: 10px 15px;
+        width: 90%;
+        height: 300px;
+    }
+    
+    .mathematic_title, .programic_title, .language_title {
+        margin-top: -1px;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .mathematic_button, .programic_button, .language_button {
+        width: 10%;
+        height: 40px;
+        margin: 30px 20px;
+        border: none;
+        background-color: rgb(88, 208, 88);
+        position: absolute;
+    }
+    p
+    {
+        font-size: 14px;
+    }
+}
+@media (width<= 991px)
+{
+    header {
+        position: relative;
+        width: 100%;
+        margin-top: 30px;
+        border-bottom: #000 1px solid;
+        padding-bottom: 10px;
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+    }
+    
+    a {
+        color: #000;
+        text-decoration: none;
+        display: inline;
+    }
+    
+    .logo {
+        width: 100%;
+        display: block; 
+        margin-bottom: 10px; 
+        margin-left: 7%;
+        text-align: centerx;
+    }
+    
+    .name {
+        display: inline;
+        font-weight: bold;
+        font-size: 24px;
+
+    }
+    
+    .opbook {
+        height: 40px;
+        margin-bottom: -15px;
+    }
+    
+    .open_class {
+        margin-top: 0; 
+        font-size: 16px;
+        display: block; 
+    }
+    
+    main {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 2300px;
+        align-items: center;
+    }
+    .mathematic_class, .programic_class, .language_class {
+        margin-top: 90px;
+        width: 45%;
+        height: 700px;
+        padding: 10px;
+        background-color: rgb(91, 157, 152);
+        text-shadow: 15px;
+        box-shadow: 10px 11px 14px 3px rgba(34, 60, 80, 0.2);
+        transition: transform 0.3s;
+    }
+    
+    .mathematic_class:hover, .programic_class:hover, .language_class:hover {
+        transform: scale(1.006);
+    }
+    
+    .mathematic_photo, .programic_photo, .language_photo {
+        margin: 10px 15px;
+        width: 96%;
+        height: 300px;
+    }
+    
+    .mathematic_title, .programic_title, .language_title {
+        margin-top: -1px;
+        font-size: 32px;
+        text-align: center;
+    }
+    
+    .mathematic_button, .programic_button, .language_button {
+        width: 10%;
+        height: 40px;
+        margin: 30px 20px;
+        border: none;
+        background-color: rgb(88, 208, 88);
+        position: absolute;
+    }
+    p
+    {
+        font-size: 16px;
+    }
+    footer {
+        margin-top: 150px;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        background-color: rgba(128, 123, 123, 1);
+        height: 242px;
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+}
+@media (width< 768px) {
+    .opbook {
+        height: 45px;
+        margin-bottom: -15px;
+    }
+
+    .open_class {
+        position: relative;
+        margin: 10px auto;
+        font-size: 16px;
+    }
+
+    .mathematic_class, .programic_class, .language_class {
+        position: relative;
+        width: 80%;
+        margin: 20px auto;
+        height: auto;
+        text-align: center;
+    }
+
+    .mathematic_button, .programic_button, .language_button {
+        position: relative;
+        width: 80%;
+        margin: 30px auto;
+    }
+    .mathematic_title, .programic_title, .language_title {
+        margin-top: -1px;
+        font-size: 22px;
+        text-align: center;
+    }
+    p
+    {
+        font-size: 18px;
+    }
+    .logo_foot {
+        position: relative;
+        margin: 10px auto;
+    }
+
+    .name_foot {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 20px 10px;
+    }
+
+    .left_side {
+        width: 100%;
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    .nav_social {
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    .social_div {
+        width: 30%;
+    }
+}
+@media (width< 576px) {
+    .opbook {
+        height: 45px;
+        margin-bottom: -15px;
+    }
+
+    .open_class {
+        position: relative;
+        margin: 10px auto;
+        font-size: 16px;
+    }
+
+    .mathematic_class, .programic_class, .language_class {
+        position: relative;
+        width: 80%;
+        margin: 20px auto;
+        height: auto;
+        text-align: center;
+    }
+
+    .mathematic_button, .programic_button, .language_button {
+        position: relative;
+        width: 80%;
+        margin: 30px auto;
+    }
+    .mathematic_title, .programic_title, .language_title {
+        margin-top: -1px;
+        font-size: 22px;
+        text-align: center;
+    }
+    p
+    {
+        font-size: 18px;
+    }
+    .logo_foot {
+        position: relative;
+        margin: 10px auto;
+    }
+
+    .name_foot {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 20px 10px;
+    }
+
+    .left_side {
+        width: 100%;
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    .nav_social {
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    .social_div {
+        width: 30%;
+    }
+}
+@media (width< 460px) {
+    .opbook {
+        height: 45px;
+        margin-bottom: -15px;
+    }
+
+    .open_class {
+        position: relative;
+        margin: 10px auto;
+        font-size: 16px;
+    }
+
+    .mathematic_class, .programic_class, .language_class {
+        position: relative;
+        width: 80%;
+        margin: 20px auto;
+        height: auto;
+        text-align: center;
+    }
+
+    .mathematic_button, .programic_button, .language_button {
+        position: relative;
+        width: 80%;
+        margin: 30px auto;
+    }
+    .mathematic_title, .programic_title, .language_title {
+        margin-top: -1px;
+        font-size: 22px;
+        text-align: center;
+    }
+    p
+    {
+        font-size: 18px;
+    }
+    .logo_foot {
+        position: relative;
+        margin: 10px auto;
+    }
+
+    .name_foot {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 20px 10px;
+    }
+
+    .left_side {
+        width: 100%;
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    .nav_social {
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    .social_div {
+        width: 30%;
+    }
+}
+@media (width< 413px) {
+    .opbook {
+        height: 45px;
+        margin-bottom: -15px;
+    }
+
+    .open_class {
+        position: relative;
+        margin: 10px auto;
+        font-size: 16px;
+    }
+
+    .mathematic_class, .programic_class, .language_class {
+        position: relative;
+        width: 80%;
+        margin: 20px auto;
+        height: auto;
+        text-align: center;
+    }
+
+    .mathematic_button, .programic_button, .language_button {
+        position: relative;
+        width: 80%;
+        margin: 30px auto;
+    }
+    .mathematic_title, .programic_title, .language_title {
+        margin-top: -1px;
+        font-size: 22px;
+        text-align: center;
+    }
+    p
+    {
+        font-size: 18px;
+    }
+    .logo_foot {
+        position: relative;
+        margin: 10px auto;
+    }
+
+    .name_foot {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 20px 10px;
+    }
+
+    .left_side {
+        width: 100%;
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    .nav_social {
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    .social_div {
+        width: 30%;
+    }
+}
+@media (width<= 374px)
+{
+
+
+    header {
+        position: relative;
+        width: 100%;
+        margin-top: 30px;
+        border-bottom: #000 1px solid;
+        padding-bottom: 10px;
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+    }
+    
+    a {
+        color: #000;
+        text-decoration: none;
+        display: inline;
+    }
+    
+    .logo {
+        width: 100%;
+        display: block; 
+        margin-bottom: 10px; 
+        margin-left: 7%;
+        text-align: centerx;
+    }
+    
+    .name {
+        display: inline;
+        font-weight: bold;
+        font-size: 18px;
+
+    }
+    
+    .opbook {
+        height: 40px;
+        margin-bottom: -15px;
+    }
+    
+    .open_class {
+        margin-top: 0; 
+        font-size: 14px;
+        display: block; 
+    }
+    .mathematic_class, .programic_class, .language_class {
+        position: relative;
+        width: 80%;
+        margin: 20px auto;
+        height: auto;
+        text-align: center;
+    }
+    .mathematic_title, .programic_title, .language_title {
+        margin-top: -1px;
+        font-size: 18px;
+        text-align: center;
+    }
+    p
+    {
+        font-size: 8px;
+    }
+
+    .mathematic_button, .programic_button, .language_button {
+        position: relative;
+        width: 80%;
+        margin: 30px auto;
+    }
+    .beauti_words_title {
+        font-size: 16px;
+    }
+    .Start_educ_text {
+        font-size: 8px;
+    }
+    .social_div {
+        width: 50%;
+        margin-top: 5px;
+    }
+}

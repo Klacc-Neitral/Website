@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/css/reset.css">
+    <link rel="stylesheet" href="/src/css/style.CSS">
+    <title>ProgTest</title>
+
+</head>
+<body>
+    <header>
+        <div class = "logo">
+            <h1 class = "name">ProgTest</h1>
+            <img class = "opbook" src="img/Open Book.png" alt="">
+        </div>
+        <div class = "navD">
+            <nav>
+                <a href="course.html">Курсы</a>
+                <a href="news.html">Новости</a>
+                <a href="#">Услуги</a>
+                <a href="#">Отзывы клиентов</a>
+            </nav>
+            <div class="buttons">
+                <button class = "login_but" type="button" disabled name="login-button">Войти</button>
+                <button class = "reg_but" type="button" name="register-button">Зарегистрироваться</button>
+            </div>
+        </div>
+        <div class ="nav_plan">
+            <nav class="Planshet">
+                <a href="course.html">Курсы</a>
+                <a href="news.html">Новости</a>
+                <a href="#">Помощь</a>
+            </nav>
+
+        </div>
+        <div class="PlanshetNav">
+        <img class="headerMenu" src="img/1779015.png" alt="">
+        </div>
+        <div class="PhoneNav">
+            <img class="headerMenu" src="img/Menu.png" alt="">
+            </div>
+    </header>
+
+ <main>
+        <div class = "arguments">
+            <div class = "first_arg">
+                <div class = "first_arg_text">
+                    <h2 class ="first_arg_text_title">Бесплатно. Весело. <br> Эффективно.</h2>
+                    <p class="text_arg">Учиться с ProgTest весело и интересно. Зарабатывайте очки за правильные ответы, открывайте новые материалы и развивайте навыки разговорной речи. Наши короткие уроки действительно работают.</p>
+                </div>
+                <img class ="first_arg_photo" src="img/3101cfd7334f84f0156136a617762ccb.png" alt="">
+            </div>
+        </div>
+
+             <div class = "second_arg">
+                <img class ="second_arg_photo" src="img/image.png" alt="">  
+                <div class = "second_arg_text">
+                    <h2 class ="second_arg_text_title">Научный подход.</h2>
+                    <p class="text_arg">Уникальный метод обучения и увлекательные материалы: исследования показывают, что наши курсы эффективно развивают навыки чтения, письма, понимания на слух и устной речи!</p>
+                </div>
+                
+            </div>
+
+            <div class = "firth_arg">
+                <div class = "firth_arg_text">
+                    <h2 class ="firth_arg_text_title">Стимул к учёбе.</h2>
+                    <p class="text_arg">Игровой подход с забавными заданиями и напоминаниями  помогает быстро превратить ежедневные занятия в привычку.</p>
+                </div>
+                <img class ="firth_arg_photo" src="img/83b873e09c787b78d5c68dad5ae64fcf.png" alt="">
+            </div>
+
+        <div class = "beauti_words">
+                <div class = "beauti_words_text">
+                    <h3 class="beauti_words_title">Расширяйте возможности своего разума, открывайте бесконечные возможности
+                        </h3>
+                        <p class="Start_educ_text" style="color: grey; ">Начните свое обучение уже сегодня</p>    
+                </div>
+            
+                <img class="beauti_words_photo" src="img/unsplash_uOhBxB23Wao.jpg" alt="">
+            </div>
+
+    
+    
+             <div class="carousel-container">
+                    <div class="carousel-slide active">
+                        <h2>Отзывы</h2>
+                        <p>Обучение в <strong>ProgTest</strong> стало для меня настоящим открытием! Платформа предлагает разнообразные тесты, которые помогают закрепить материал и подготовиться к экзаменам. Особенно понравились интерактивные задания — они делают процесс обучения увлекательным. Преподаватели всегда готовы помочь и ответить на вопросы. Рекомендую всем, кто хочет улучшить свои знания.</p>
+                    </div>
+                    <div class="carousel-slide">
+                        <h2>Отзывы</h2>
+                        <p>ProgTest действительно помогает улучшить навыки! Занятия проходят легко и приятно, и всегда есть возможность получить помощь от преподавателей. Курс выполнен на высоком уровне, рекомендую!</p>
+                    </div>
+                    <div class="carousel-slide">
+                        <h2>Отзывы</h2>
+                        <p>Курсы на ProgTest помогли мне не только улучшить знания, но и привили любовь к обучению. Каждый урок захватывающий, а задания интересные и полезные!</p>
+                    </div>
+                
+                    <div class="carousel-controls">
+                        <button class="prev">&#10094;</button>
+                        <button class="next">&#10095;</button>
+                    </div>
+                </div>
+                
+                <script>
+                    const slides = document.querySelectorAll('.carousel-slide');
+                    let currentSlide = 0;
+                
+                    document.querySelector('.next').addEventListener('click', () => {
+                        slides[currentSlide].classList.remove('active');
+                        currentSlide = (currentSlide + 1) % slides.length;
+                        slides[currentSlide].classList.add('active');
+                    });
+                
+                    document.querySelector('.prev').addEventListener('click', () => {
+                        slides[currentSlide].classList.remove('active');
+                        currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+                        slides[currentSlide].classList.add('active');
+                    });
+                
+                </script>
+            
+
+    <div class = "consultation">
+    <div class = "consultation_giv_cons">
+        <h2>Получите <br>консультацию </h2>
+    </div >
+    <div  class = "consultation_our_men">
+        <p>Наши менеджеры помогут выбрать направление, расскажут о форматах и программах обучения</p>
+    </div>
+    <div class="give_inform">
+        <input class="inform_name" type="text" name="username" placeholder="Имя">
+        <input class="inform_phone" type="text" name="username" placeholder="+7 999 999 99 99">
+        <input class="inform_mail" type="text" name="username" placeholder="Электронная почта">
+        <button class = "but_consult" type="button" name="register-button">Получить консультацию</button>
+    </div>
+</div>
+</main>
+  
+<footer>
+    <div class = "left_side">
+        <div class="nav_foot">
+            <nav class = "nav_footer">
+                <a class="a_footer" href="#">Помощь</a>
+                <a class="a_footer" href="#">Миссия</a>
+                <a class="a_footer" href="#">Эффективность</a>
+                <a class="a_footer" href="#">Вакансии</a>
+            </nav>
+        </div>
+        <div class = "logo_foot">
+            <h1 class = "name_foot">ProgTest</h1>
+            <img class = "opbook_foot" src="img/Open Book.png" alt="">
+            <p class = "name_creator">© Галлямов Марсель 4321-21</p>
+        </div>
+    </div>
+    <div class = "social_div">
+        <nav class = "nav_social">
+            <a  href="#"><img src="img/Vector(ютуб).png" alt=""></a>
+            <a  href="#"><img src="img/Social Icons(вк).png" alt=""></a>
+            <a  href="#"><img src="img/Social Icons(ютуб(2)).png" alt=""></a>
+        </nav>
+
+    </div>
+   </footer>
+</body>
+</html>

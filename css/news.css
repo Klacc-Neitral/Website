@@ -1,0 +1,570 @@
+
+header {
+    position: relative;
+    width: 100%;
+    margin-top: 30px;
+    border-bottom: #000 1px solid;
+    padding-bottom: 10px;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    display: inline;
+}
+
+.logo {
+    width: 17%;
+    display: block; 
+    margin-bottom: 10px; 
+    margin-left: 4%;
+}
+
+.name {
+    display: inline;
+    font-weight: bold;
+    font-size: 32px;
+
+}
+
+.opbook {
+    height: 50px;
+    margin-bottom: -15px;
+}
+.news{
+    margin-top: 0; 
+    display: block; 
+display: inline;
+}   
+
+.main
+{
+    text-align: center;
+}
+
+p{
+margin-top: 100px;
+font-size: large;
+}
+.logo_foot {
+    margin-top: 4%;
+    margin-left: 4%;
+    display: inline;
+    position: absolute;
+}
+
+.name_foot {
+    color: white;
+    font-weight: bolder;
+    font-size: 32px;
+    display: inline;
+    -webkit-text-stroke: 1px rgba(128, 123, 123, 1);
+}
+
+.opbook_foot {
+    height: 50px;
+    margin-bottom: -15px;
+}
+
+footer {
+    margin-top: 30%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(128, 123, 123, 1);
+    height: 242px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.name_creator {
+    margin-top: 4%;
+    color: white;
+}
+
+.a_footer {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.left_side {
+    width: 40%;
+    margin-top: 1%;
+}
+
+.nav_foot {
+    width: 100%;
+}
+
+.nav_footer {
+    margin-left: 12px;
+    display: inline;
+}
+
+.nav_social {
+    display: flex;
+    margin-top: 4%;
+    justify-content: space-around;
+}
+
+.social_div {
+    width: 14%;
+}
+@media (width<= 1519px)
+{
+    header {
+        position: relative;
+        width: 100%;
+        margin-top: 30px;
+        border-bottom: #000 1px solid;
+        padding-bottom: 10px;
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+    }
+    
+    a {
+        color: #000;
+        text-decoration: none;
+        display: inline;
+    }
+    
+    .logo {
+        width: 17%;
+        display: block; 
+        margin-bottom: 10px; 
+        margin-left: 4%;
+    }
+    
+    .name {
+        display: inline;
+        font-weight: bold;
+        font-size: 32px;
+
+    }
+    
+    .opbook {
+        height: 50px;
+        margin-bottom: -15px;
+    }
+    .news{
+        margin-top: 0; 
+        display: block; 
+    display: inline;
+    }   
+
+    .main
+    {
+        text-align: center;
+    }
+
+p{
+    margin-top: 100px;
+    font-size: large;
+}
+    .logo_foot {
+        margin-top: 4%;
+        margin-left: 4%;
+        display: inline;
+        position: absolute;
+    }
+    
+    .name_foot {
+        color: white;
+        font-weight: bolder;
+        font-size: 32px;
+        display: inline;
+        -webkit-text-stroke: 1px rgba(128, 123, 123, 1);
+    }
+    
+    .opbook_foot {
+        height: 50px;
+        margin-bottom: -15px;
+    }
+    
+    footer {
+        margin-top: 30%;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        background-color: rgba(128, 123, 123, 1);
+        height: 242px;
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    
+    .name_creator {
+        margin-top: 4%;
+        color: white;
+    }
+    
+    .a_footer {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 16px;
+    }
+    
+    .left_side {
+        width: 40%;
+        margin-top: 1%;
+    }
+    
+    .nav_foot {
+        width: 100%;
+    }
+    
+    .nav_footer {
+        margin-left: 12px;
+        display: inline;
+    }
+    
+    .nav_social {
+        display: flex;
+        margin-top: 4%;
+        justify-content: space-around;
+    }
+    
+    .social_div {
+        width: 14%;
+    }
+}
+@media (width<= 991px)
+{
+    header {
+        position: relative;
+        width: 100%;
+        margin-top: 30px;
+        border-bottom: #000 1px solid;
+        padding-bottom: 10px;
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+    }
+    
+    a {
+        color: #000;
+        text-decoration: none;
+        display: inline;
+    }
+    
+    .logo {
+        width: 100%;
+        display: block; 
+        margin-bottom: 10px; 
+        margin-left: 7%;
+        text-align: centerx;
+    }
+    
+    .news {
+        display: inline;
+        font-weight: bold;
+        font-size: 24px;
+
+    }
+    
+    .opbook {
+        height: 40px;
+        margin-bottom: -15px;
+    }
+    
+    .open_class {
+        margin-top: 0; 
+        font-size: 16px;
+        display: block; 
+    }
+    .logo_foot {
+        position: relative;
+        margin: 10px auto;
+    }
+
+    .name_foot {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    footer {
+        margin-top: 80%;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 20px 10px;
+    }
+
+    .left_side {
+        width: 100%;
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    .nav_social {
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    .social_div {
+        width: 30%;
+    }
+}
+@media (width<= 768px)
+{
+    header {
+        position: relative;
+        width: 100%;
+        margin-top: 30px;
+        border-bottom: #000 1px solid;
+        padding-bottom: 10px;
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+    }
+    
+    a {
+        color: #000;
+        text-decoration: none;
+        display: inline;
+    }
+    
+    .logo {
+        width: 100%;
+        display: block; 
+        margin-bottom: 10px; 
+        margin-left: 7%;
+        text-align: centerx;
+    }
+    
+    .news {
+        display: inline;
+        font-weight: bold;
+        font-size: 24px;
+
+    }
+    
+    .opbook {
+        height: 40px;
+        margin-bottom: -15px;
+    }
+    
+    .open_class {
+        margin-top: 0; 
+        font-size: 16px;
+        display: block; 
+    }
+    .logo_foot {
+        position: relative;
+        margin: 10px auto;
+    }
+
+    .name_foot {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    footer {
+        margin-top: 80%;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 20px 10px;
+    }
+
+    .left_side {
+        width: 100%;
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    .nav_social {
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    .social_div {
+        width: 30%;
+    }
+}
+@media (width<= 576px)
+{
+    .name_foot {
+        font-size: 24px;
+        text-align: center;
+        -webkit-text-stroke: 0.5px rgba(128, 123, 123, 1);
+    }
+
+    .logo_foot {
+        position: relative;
+        margin: 5px auto;
+    }
+
+    footer {
+        padding: 10px;
+        margin-top: 100%;
+    }
+
+    .name_creator {
+        margin-top: 10px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .a_footer {
+        font-size: 14px;
+    }
+
+    .left_side {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .nav_social {
+        
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .social_div {
+        width: 40%;
+        margin-top: 5px;
+    }
+}
+@media (width<= 460px)
+{
+    .name_foot {
+        font-size: 24px;
+        text-align: center;
+        -webkit-text-stroke: 0.5px rgba(128, 123, 123, 1);
+    }
+
+    .logo_foot {
+        position: relative;
+        margin: 5px auto;
+    }
+
+    footer {
+        padding: 10px;
+        margin-top: 100%;
+    }
+
+    .name_creator {
+        margin-top: 10px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .a_footer {
+        font-size: 14px;
+    }
+
+    .left_side {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .nav_social {
+        
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .social_div {
+        width: 40%;
+        margin-top: 5px;
+    }
+}
+@media (width<= 413px)
+{
+    .name_foot {
+        font-size: 24px;
+        text-align: center;
+        -webkit-text-stroke: 0.5px rgba(128, 123, 123, 1);
+    }
+
+    .logo_foot {
+        position: relative;
+        margin: 5px auto;
+    }
+
+    footer {
+        padding: 10px;
+        margin-top: 100%;
+    }
+
+    .name_creator {
+        margin-top: 10px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .a_footer {
+        font-size: 14px;
+    }
+
+    .left_side {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .nav_social {
+        
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .social_div {
+        width: 40%;
+        margin-top: 5px;
+    }
+}
+@media (width<= 374px)
+{
+    header {
+        position: relative;
+        width: 100%;
+        margin-top: 30px;
+        border-bottom: #000 1px solid;
+        padding-bottom: 10px;
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+    }
+    
+    a {
+        color: #000;
+        text-decoration: none;
+        display: inline;
+    }
+    
+    .logo {
+        width: 100%;
+        display: block; 
+        margin-bottom: 10px; 
+        margin-left: 7%;
+        text-align: centerx;
+    }
+    
+    .name {
+        display: inline;
+        font-weight: bold;
+        font-size: 18px;
+
+    }
+    
+    .opbook {
+        height: 40px;
+        margin-bottom: -15px;
+    }
+    
+    .news {
+        margin-top: 0; 
+        font-size: 14px;
+        display: block; 
+    }
+}
